@@ -1,5 +1,5 @@
 {
-  "name": "dc_mywebspace",
+  "name": "dc_nextapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "reactstrap": "^8.6.0",
+    "sass": "^1.26.11"
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }

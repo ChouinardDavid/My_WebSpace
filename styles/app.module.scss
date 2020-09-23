@@ -1,0 +1,13 @@
+.appContainer {
+	display: flex;
+	flex-direction: column;
+
+	.competenceCells {
+		display: flex;
+
+		.cell {
+			margin: 10px 25px;
+			width: 33%;
+		}
+	}
+}
