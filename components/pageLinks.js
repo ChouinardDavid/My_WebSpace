@@ -1,8 +1,9 @@
 import React from 'react';
+import SectionForm from './helpers/sectionsForm';
 
 const PageLinks = (props) => {
 	return (
-		<div id='links'>
+		<SectionForm id='links'>
 			<ul>
 				<li>
 					<a href='#presentation'>Présentation</a>
@@ -20,7 +21,7 @@ const PageLinks = (props) => {
 					<a href='#realisations'>Réalisations</a>
 				</li>
 			</ul>
-		</div>
+		</SectionForm>
 	);
 };
 

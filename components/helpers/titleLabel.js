@@ -1,9 +1,17 @@
 import React from 'react';
-import styles from '../styles/app.module.scss';
 
 const TitleLabel = (props) => {
 	var titleName = props.titleName;
-	return <h1 className={styles.titleName}>{titleName}</h1>;
+	return (
+		<>
+			<h1>{titleName}</h1>
+			<style jsx>{`
+				h1 {
+					margin-bottom: 25px;
+				}
+			`}</style>
+		</>
+	);
 };
 
 export default TitleLabel;

@@ -1,10 +1,11 @@
 import React from 'react';
-import styles from '../styles/app.module.scss';
-import TitleLabel from './titleLabel';
+import styles from '../styles/presentation.module.scss';
+import SectionForm from './helpers/sectionsForm';
+import TitleLabel from './helpers/titleLabel';
 
 const Presentation = (props) => {
 	return (
-		<div id='presentation' className={styles.line}>
+		<SectionForm id='presentation'>
 			<TitleLabel titleName='Présentation' />
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
@@ -13,7 +14,7 @@ const Presentation = (props) => {
 				Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
 				Lorem Ipsum
 			</p>
-		</div>
+		</SectionForm>
 	);
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleLabel from './titleLabel';
+import TitleLabel from './helpers/titleLabel';
 import Header from './header';
 import { Container } from 'reactstrap';
 import styles from '../styles/app.module.scss';
@@ -10,9 +10,9 @@ function App() {
 	return (
 		<div id='App'>
 			<Container fluid className={styles.appContainer}>
-				<Header />
-				<Presentation />
-				<Competences />
+				<Header className={styles.appContainer} />
+				<Presentation className={styles.appContainer} />
+				<Competences className={styles.appContainer} />
 				<div id='carriere' className={styles.line}>
 					<TitleLabel titleName='Parcours de carrière' />
 				</div>
