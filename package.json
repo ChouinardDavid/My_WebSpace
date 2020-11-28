@@ -1,21 +1,32 @@
 {
-  "name": "dc_nextapp",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "reactstrap": "^8.6.0",
-    "sass": "^1.26.11"
-  },
-  "devDependencies": {
-    "react-social-icons": "^4.1.0"
-  }
+    "name": "dc_nextapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "devdebug": "cross-env NODE_OPTIONS='--inspect' next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "@material-ui/lab": "^4.0.0-alpha.56",
+        "gray-matter": "^4.0.2",
+        "next": "^10.0.0",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-icons": "^3.11.0",
+        "react-intersection-observer": "^8.29.1",
+        "react-transition-group": "^4.4.1",
+        "rehype-stringify": "^8.0.0",
+        "remark-parse": "^8.0.3",
+        "remark-rehype": "^7.0.0",
+        "sass": "^1.26.11",
+        "unified": "^9.2.0"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.2",
+        "react-social-icons": "^4.1.0"
+    }
 }

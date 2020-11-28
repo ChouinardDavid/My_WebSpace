@@ -1,0 +1,10 @@
+.skills {
+	.skillsGroups {
+        display: flex;
+        flex-direction: column;
+
+        .group{
+            margin: 10px;
+        }
+	}
+}

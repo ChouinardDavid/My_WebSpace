@@ -1,0 +1,30 @@
+
+// @use '../styles/variables';
+
+
+$bioTechBaseColor: rgb(33, 150, 243);
+$infoBaseColor:  rgb(60,179,113);
+
+.dateBlackColor {
+    color: black;
+}
+
+.carrerBio{
+    background: $bioTechBaseColor;
+    color: '#fff'
+}
+
+.carrerInfo{
+    background: $infoBaseColor;
+    color: '#fff'
+}
+
+.item{
+    // margin: 10px 5px;
+    margin-bottom: 75px;
+
+    .posteTitle{
+        display: flex;
+        justify-content: space-between;
+    }
+}

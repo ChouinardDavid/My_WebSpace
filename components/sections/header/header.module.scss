@@ -1,0 +1,22 @@
+
+
+
+
+.titleDiv {
+    padding: 20px 30px;
+    display: flex;
+    // text-align: center;
+
+    .myImage {
+        border-radius: 50%;
+        max-width: 300px;
+        width: 25%;
+        height: auto;
+        margin: 5px 30px 20px 0px;
+        vertical-align: middle;
+    }
+
+    .headerTitle {
+        font-weight: bolder;
+    }
+}
